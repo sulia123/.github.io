@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>withjuliasin — UGC Creator Portfolio</title>
+    <meta
+      name="description"
+      content="withjuliasin — UGC creator portfolio. Short-form content for TikTok, Instagram Reels and YouTube Shorts. Brand-aligned, conversion-focused."
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="#top" class="brand">
+        <span class="brand-name">withjuliasin</span>
+        <span class="brand-dash">—</span>
+        <span class="brand-role">UGC</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <a href="#portfolio" class="nav-link is-active">Portfolio</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#prices" class="nav-link">Prices</a>
+        <a href="#resume" class="nav-link">Resumé</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="profile-top" aria-labelledby="profile-heading">
+        <div class="profile-top__inner">
+          <figure class="profile-top__figure">
+            <img
+              src="assets/juliaheadshot.jpg"
+              alt="Julia — withjuliasin, UGC creator"
+              width="800"
+              height="600"
+              loading="eager"
+            />
+          </figure>
+          <div class="profile-top__main">
+            <div class="profile-top__intro">
+              <p class="profile-top__eyebrow" id="profile-heading">Profile</p>
+              <p class="profile-top__name">withjuliasin</p>
+              <p class="profile-top__meta">UGC creator · TikTok, Reels &amp; Shorts</p>
+            </div>
+            <div class="profile-top__bio" aria-labelledby="profile-bio-heading">
+              <p class="profile-top__bio-label" id="profile-bio-heading">About me</p>
+              <p class="profile-top__bio-text">
+                I create content for the homebody life: slow, cozy days where staying in feels
+                just as special as going out. Through food, small rituals, and at-home gadgets
+                that elevate my space, I show how ordinary rooms can feel warm, considered, and
+                a little bit luxurious, so brands can meet people where they actually live.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HERO / PORTFOLIO -->
+      <section id="portfolio" class="hero">
+        <div class="hero-index" aria-hidden="true">
+          <span class="hero-index__slash">/</span><span class="hero-index__num">01</span>
+        </div>
+        <h1 class="hero-title" aria-label="Portfolio">
+          <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span
+          ><span>O</span><span>L</span><span>I</span><span>O</span>
+        </h1>
+
+        <div class="hero-showcase">
+          <div
+            class="hero-carousel hero-carousel--coverflow"
+            data-hero-carousel
+            data-carousel-layout="coverflow"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Featured collaboration reels"
+            tabindex="0"
+          >
+            <div class="hero-carousel__stage">
+              <div class="hero-carousel__viewport">
+                <div class="hero-carousel__track" data-carousel-track>
+                <div class="hero-carousel__cell is-active" data-carousel-slide="0">
+                  <div class="hero-reel__frame">
+                    <video
+                      class="hero-reel__video"
+                      src="assets/listeningcorner-web.mp4"
+                      poster="assets/thumb-listeningcorner.jpg"
+                      muted
+                      playsinline
+                      loop
+                      controls
+                    ></video>
+                    <p class="hero-reel__caption">Listening Corner</p>
+                  </div>
+                </div>
+                <div class="hero-carousel__cell" data-carousel-slide="1">
+                  <div class="hero-reel__frame">
+                    <video
+                      class="hero-reel__video"
+                      src="assets/bartesian-web.mp4"
+                      poster="assets/thumb-bartesian.jpg"
+                      muted
+                      playsinline
+                      loop
+                      controls
+                    ></video>
+                    <p class="hero-reel__caption">Bartesian Cocktail Maker</p>
+                  </div>
+                </div>
+                <div class="hero-carousel__cell" data-carousel-slide="2">
+                  <div class="hero-reel__frame">
+                    <video
+                      class="hero-reel__video"
+                      src="assets/poweroflighting-web.mp4"
+                      poster="assets/thumb-poweroflighting.jpg"
+                      muted
+                      playsinline
+                      loop
+                      controls
+                    ></video>
+                    <p class="hero-reel__caption">Power of Lighting</p>
+                  </div>
+                </div>
+                <div class="hero-carousel__cell" data-carousel-slide="3">
+                  <div class="hero-reel__frame">
+                    <video
+                      class="hero-reel__video"
+                      src="assets/dr-rejuall-web.mp4"
+                      poster="assets/thumb-rejuall.jpg"
+                      muted
+                      playsinline
+                      loop
+                      controls
+                    ></video>
+                    <p class="hero-reel__caption">Dr. Rejuall Skincare</p>
+                  </div>
+                </div>
+                <div class="hero-carousel__cell" data-carousel-slide="4">
+                  <div class="hero-reel__frame">
+                    <video
+                      class="hero-reel__video"
+                      src="assets/copenhagendecor-web.mp4"
+                      poster="assets/thumb-copenhagendecor.jpg"
+                      muted
+                      playsinline
+                      loop
+                      controls
+                    ></video>
+                    <p class="hero-reel__caption">Copenhagen Decor</p>
+                  </div>
+                </div>
+                <div class="hero-carousel__cell" data-carousel-slide="5">
+                  <div class="hero-reel__frame">
+                    <video
+                      class="hero-reel__video"
+                      src="assets/homeboredom-web.mp4"
+                      poster="assets/thumb-homeboredom.jpg"
+                      muted
+                      playsinline
+                      loop
+                      controls
+                    ></video>
+                    <p class="hero-reel__caption">Home Boredom</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="hero-carousel__nav hero-carousel__nav--prev"
+                data-carousel-prev
+                aria-label="Show previous reel"
+              >
+                <span aria-hidden="true">‹</span>
+              </button>
+              <button
+                type="button"
+                class="hero-carousel__nav hero-carousel__nav--next"
+                data-carousel-next
+                aria-label="Show next reel"
+              >
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+            <div class="hero-carousel__dots" data-carousel-dots role="tablist" aria-label="Choose reel"></div>
+            <p class="hero-carousel__hint" aria-hidden="true">Use arrows or dots to browse reels</p>
+          </div>
+        </div>
+
+        <p class="hero-tag">
+          Short-form UGC for <strong>Reels</strong>, <strong>TikTok</strong>, &amp;
+          <strong>Shorts</strong> — brand-aligned and conversion-focused.
+        </p>
+      </section>
+
+      <!-- RECENT PROJECTS -->
+      <section class="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title" class="section-title">Recent Projects &amp; Collaborations</h2>
+
+        <div class="project-grid">
+          <article class="project-card" data-video="assets/bartesian-web.mp4">
+            <div class="project-thumb">
+              <img
+                src="assets/thumb-bartesian.jpg"
+                alt="Bartesian Cocktail Maker — collaboration reel thumbnail"
+                loading="lazy"
+              />
+              <button class="play-btn" aria-label="Play Bartesian Cocktail Maker collaboration reel">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 5v14l11-7L8 5z" />
+                </svg>
+              </button>
+            </div>
+            <h3 class="project-name">Bartesian Cocktail Maker</h3>
+            <p class="project-meta">Collaboration Reel</p>
+          </article>
+
+          <article class="project-card" data-video="assets/dr-rejuall-web.mp4">
+            <div class="project-thumb">
+              <img
+                src="assets/thumb-rejuall.jpg"
+                alt="Dr. Rejuall Skincare collaboration reel thumbnail"
+                loading="lazy"
+              />
+              <button class="play-btn" aria-label="Play Dr. Rejuall Skincare collaboration reel">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 5v14l11-7L8 5z" />
+                </svg>
+              </button>
+            </div>
+            <h3 class="project-name">Dr. Rejuall Skincare</h3>
+            <p class="project-meta">Collaboration Reel</p>
+          </article>
+
+          <article class="project-card" data-video="assets/saltysleep-web.mp4">
+            <div class="project-thumb project-thumb--captioned">
+              <img
+                src="assets/saltysleepthumbnail.jpg"
+                alt="Salty Sleep — aromatherapy and skincare company collaboration reel thumbnail"
+                loading="lazy"
+              />
+              <span class="project-thumb__caption" aria-hidden="true">SaltySleep Collab</span>
+              <button class="play-btn" aria-label="Play Salty Sleep aromatherapy and skincare collaboration reel">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 5v14l11-7L8 5z" />
+                </svg>
+              </button>
+            </div>
+            <h3 class="project-name">Salty Sleep</h3>
+            <p class="project-meta">Aromatherapy &amp; Skincare Company Collaboration Reel</p>
+          </article>
+
+          <article class="project-card" data-video="https://cdn.coverr.co/videos/coverr-light-and-shadow-on-the-wall-1572/1080p.mp4">
+            <div class="project-thumb">
+              <img
+                src="https://images.unsplash.com/photo-1583241800698-9c2e463b8892?auto=format&fit=crop&w=600&q=80"
+                alt="Texture focus UGC thumbnail"
+                loading="lazy"
+              />
+              <button class="play-btn" aria-label="Play Texture focus video">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 5v14l11-7L8 5z" />
+                </svg>
+              </button>
+            </div>
+            <h3 class="project-name">Texture focus</h3>
+            <p class="project-meta">Aroma Zone PR products</p>
+          </article>
+        </div>
+
+        <div class="cta-row">
+          <p class="cta-text">Want to start a project?</p>
+          <a class="btn btn--primary" href="#contact">Send a message <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="services" aria-labelledby="services-title">
+        <h2 id="services-title" class="section-title">Services</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <h3>UGC Video</h3>
+            <p>Authentic short-form videos shot vertical (9:16) for TikTok, Reels and Shorts. Hook-first, story-driven, optimized for retention.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <h3>Product Photography</h3>
+            <p>Lifestyle stills and flat-lays that match your brand aesthetic — ready for ads, web and social.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <h3>Whitelisting &amp; Paid Usage</h3>
+            <p>Spark Code, Partnership Ads and full usage rights so you can scale content as paid creative.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">04</span>
+            <h3>Scripting &amp; Concepts</h3>
+            <p>Hooks, beats and CTAs written for your product and audience — backed by what actually performs.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- PRICES / PACKAGES -->
+      <section id="prices" class="packages" aria-labelledby="packages-title">
+        <div class="packages-head">
+          <h2 id="packages-title" class="section-title">UGC Packages</h2>
+          <p class="packages-sub">
+            All content is created for TikTok, Instagram Reels &amp; YouTube Shorts.<br />
+            High-quality, brand-aligned, and optimized for engagement &amp; conversion.
+          </p>
+        </div>
+
+        <div class="package-grid">
+          <article class="package-card">
+            <header>
+              <h3>Starter</h3>
+              <p class="price"><span>€</span>180</p>
+            </header>
+            <ul>
+              <li>1 UGC video (15–30s)</li>
+              <li>1 hook variation</li>
+              <li>Vertical 9:16 delivery</li>
+              <li>Organic usage rights (3 months)</li>
+              <li>1 revision</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost">Book Starter</a>
+          </article>
+
+          <article class="package-card package-card--featured">
+            <span class="badge">Most popular</span>
+            <header>
+              <h3>Growth</h3>
+              <p class="price"><span>€</span>420</p>
+            </header>
+            <ul>
+              <li>3 UGC videos (15–45s)</li>
+              <li>3 hook variations</li>
+              <li>Raw + edited delivery</li>
+              <li>Organic + paid usage (6 months)</li>
+              <li>2 revisions per video</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Book Growth</a>
+          </article>
+
+          <article class="package-card">
+            <header>
+              <h3>Brand Partner</h3>
+              <p class="price"><span>€</span>880</p>
+            </header>
+            <ul>
+              <li>6 UGC videos (15–60s)</li>
+              <li>Custom scripting &amp; concepts</li>
+              <li>Whitelisting / Spark Code</li>
+              <li>Full usage rights (12 months)</li>
+              <li>Priority turnaround</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost">Book Brand Partner</a>
+          </article>
+        </div>
+
+        <!-- Testimonial -->
+        <figure class="testimonial">
+          <div class="testimonial-photo">
+            <img
+              src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&q=80"
+              alt="Client portrait"
+              loading="lazy"
+            />
+          </div>
+          <blockquote>
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <p>
+              Working with her was a dream. The videos converted on day one and
+              we ended up scaling two of them as paid ads. Easily the smoothest
+              UGC partnership we&rsquo;ve had.
+            </p>
+            <figcaption>— Marie L., Brand Manager at COSRX</figcaption>
+          </blockquote>
+        </figure>
+      </section>
+
+      <!-- RESUMÉ -->
+      <section id="resume" class="resume" aria-labelledby="resume-title">
+        <h2 id="resume-title" class="section-title">Resumé</h2>
+
+        <div class="resume-grid">
+          <div class="resume-col">
+            <h3 class="resume-h">Brands I&rsquo;ve worked with</h3>
+            <ul class="brand-list">
+              <li>COSRX</li>
+              <li>Aroma Zone</li>
+              <li>Sephora</li>
+              <li>Glossier</li>
+              <li>Daniel Wellington</li>
+              <li>HelloFresh</li>
+            </ul>
+          </div>
+
+          <div class="resume-col">
+            <h3 class="resume-h">Highlights</h3>
+            <ul class="timeline">
+              <li>
+                <span class="t-year">2026</span>
+                <span class="t-text">2M+ combined views on partnership content</span>
+              </li>
+              <li>
+                <span class="t-year">2025</span>
+                <span class="t-text">Featured creator — TikTok Shop EU</span>
+              </li>
+              <li>
+                <span class="t-year">2024</span>
+                <span class="t-text">Launched full-time as a UGC creator</span>
+              </li>
+              <li>
+                <span class="t-year">2023</span>
+                <span class="t-text">First brand deal — skincare campaign</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-col">
+            <h3 class="resume-h">Tools</h3>
+            <ul class="chip-list">
+              <li>CapCut</li>
+              <li>Premiere Pro</li>
+              <li>Lightroom</li>
+              <li>Sony ZV-1</li>
+              <li>iPhone 15 Pro</li>
+              <li>Notion</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <div class="contact-copy">
+            <h2 id="contact-title" class="section-title">Let&rsquo;s create something.</h2>
+            <p>
+              Tell me a bit about your brand and what you&rsquo;re looking for.
+              I usually reply within 24 hours.
+            </p>
+            <ul class="contact-meta">
+              <li><span>Email</span> hello@withjuliasin.com</li>
+              <li><span>Instagram</span> @withjuliasin</li>
+              <li><span>TikTok</span> @withjuliasin</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" novalidate>
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required autocomplete="email" />
+            </label>
+            <label>
+              <span>Brand / Company</span>
+              <input type="text" name="brand" autocomplete="organization" />
+            </label>
+            <label>
+              <span>Project details</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">Send message <span aria-hidden="true">→</span></button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="48" height="48">
+          <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+          <path d="M20 40 C 26 28, 38 28, 44 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <circle cx="26" cy="28" r="2" fill="currentColor" />
+          <circle cx="38" cy="28" r="2" fill="currentColor" />
+        </svg>
+      </div>
+      <p>© <span id="year"></span> withjuliasin — UGC Creator. All rights reserved.</p>
+    </footer>
+
+    <!-- Video Lightbox -->
+    <dialog id="video-modal" class="video-modal" aria-label="Video preview">
+      <button class="video-modal__close" aria-label="Close video">×</button>
+      <video class="video-modal__video" controls playsinline preload="none"></video>
+    </dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
